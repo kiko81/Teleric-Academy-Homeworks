@@ -1,0 +1,46 @@
+.gallery {
+    padding: 10px 0 30px 0
+}
+
+.gallery div#thumbs {
+    margin: 15px;
+    text-align: center;
+    padding: 0
+}
+
+.gallery div#thumbs label {
+    background-color: white;
+    margin: 0 1px 0 0;
+    display: inline-block;
+    padding: 0 0 3px 0
+}
+
+.gallery div#thumbs label:last-of-type {
+    margin-right: 0
+}
+
+.gallery div#thumbs label img {
+    width: 200px;
+    cursor: pointer
+}
+
+.gallery div#thumbs label:hover {
+    background-color: gray
+}
+
+.gallery .big {
+    width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white
+}
+
+.gallery .big input, .gallery .big input+img {
+    display: none
+}
+
+.gallery .big input:checked+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto
+}

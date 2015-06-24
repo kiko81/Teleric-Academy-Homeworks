@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, serif;
+        }
+        input {
+            width: 50px;
+        }
+        span {
+            color: orangered;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+        li ul {
+            list-style: circle;
+        }
+        .array {
+            width: 500px;
+        }
+        a {
+            text-decoration: none;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Array Methods</h1>
+<sub>(people array generated fully random, possible males with female names and vise versa, as well as duplicates)</sub>
+<div>
+    <h2>Problem 1. Make person</h2>
+    <ul>
+        <li>Write a function for creating persons
+            <ul>
+                <li>Each person must have <b>firstname, lastname, age</b> and <b>gender</b> (true is female, false is male)</li>
+            </ul>
+        </li>
+        <li>Generate an array with ten person with different names, ages and genders</li>
+    </ul>
+    <button id="check1">Generate</button>
+    <p>Result: <br><span id="result1"></span></p>
+</div>
+<div>
+    <h2>Problem 2. People of age</h2>
+    <ul>
+        <li>Write a function that checks if an array of person contains only people of age (with age 18 or greater)</li>
+        <ul>
+            <li>Use <b>only array methods</b> and no regular loops (for, while)</li>
+        </ul>
+    </ul>
+    <button id="show2">Generate array</button>
+    <p id="source2"></p>
+    <button id="check2">Check</button>
+    <p>Result: <span id="result2"></span></p>
+</div>
+<div>
+    <h2>Problem 3. Underage people</h2>
+    <ul>
+        <li>Write a function that prints all underaged persons of an array of person</li>
+        <ul>
+            <li>Use <b>Array#filter</b> and <b>Array#forEach</b></li>
+            <li>Use <b>only array methods</b> and no regular loops (for, while)</li>
+        </ul>
+    </ul>
+    <button id="show3">Generate array</button>
+    <p id="source3"></p>
+    <input type="text" id="input3" placeholder="input"/>
+    <label for="input3">Age</label><br>
+    <button id="check3">Print</button>
+    <p>Result: <br><span id="result3"></span></p>
+</div>
+<div>
+    <h2>Problem 4. Average age of females</h2>
+    <ul>
+        <li>Write a function that calculates the average age of all females, extracted from an array of persons</li>
+        <ul>
+            <li>Use <b>Array#filter</b></li>
+            <li>Use <b>only array methods</b> and no regular loops (for, while)</li>
+        </ul>
+    </ul>
+    <button id="show4">Generate array</button>
+    <p id="source4"></p>
+    <button id="check4">Calculate</button>
+    <p>Result: <span id="result4"></span></p>
+</div>
+<div>
+    <h2>Problem 5. Youngest person</h2>
+    <ul>
+        <li>Write a function that finds the youngest male person in a given array of people and prints his full name</li>
+        <ul>
+            <li>Use <b>only array methods</b> and no regular loops (for, while)</li>
+            <li>Use <b>Array#find</b></li>
+        </ul>
+    </ul>
+    <button id="show5">Generate array</button>
+    <p id="source5"></p>
+    <button id="check5">Find youngest</button>
+    <p>Result: <span id="result5"></span></p>
+</div>
+<div>
+    <h2>Problem 6. Group people</h2>
+    <ul>
+        <li>Write a function that groups an array of persons by first letter of first name and returns the groups as a JavaScript Object</li>
+        <ul>
+            <li>Use <b>Array#reduce</b></li>
+            <li>Use <b>only array methods</b> and no regular loops (for, while)</li>
+        </ul>
+    </ul>
+    <button id="show6">Generate array</button>
+    <p id="source6"></p>
+    <button id="check6">Group</button>
+    <p>Result: <br><span id="result6"></span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

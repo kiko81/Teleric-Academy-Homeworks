@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, serif;
+        }
+
+        input {
+            width: 50px;
+        }
+
+        span {
+            color: orangered;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+
+        .array {
+            width: 500px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        .textbox {
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<h1>Strings</h1>
+<sub>(samples for some of the problems -> samples.txt)</sub>
+<div>
+    <h2>Problem 1. Reverse string</h2>
+    <ul>
+        <li>Write a JavaScript function that reverses a string and returns it.</li>
+    </ul>
+    <input type="text" id="input1" class="array" placeholder="input"/>
+    <label for="input1">some string</label>
+    <br>
+    <button id="check1">Reverse</button>
+    <p>Result: <span id="result1"></span></p>
+</div>
+<div>
+    <h2>Problem 2. Correct brackets</h2>
+    <ul>
+        <li>Write a JavaScript function to check if in a given expression the brackets are put correctly.</li>
+    </ul>
+    <input type="text" id="input2" class="array" placeholder="get from samples.txt"/>
+    <label for="input2">some expression</label>
+    <br>
+    <button id="check2">Check</button>
+    <p>Result: <span id="result2"></span></p>
+</div>
+<div>
+    <h2>Problem 3. Sub-string in text</h2>
+    <ul>
+        <li>Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).</li>
+    </ul>
+    <input type="text" id="input3-1" class="array" value="We are living in an yellow submarine. We don't have anything else. inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days."/>
+    <label for="input3-1">some text</label>
+    <br>
+    <input type="text" id="input3-2" value="iN"/>
+    <label for="input3-2">substring to search</label>
+    <br>
+    <button id="check3">Find</button>
+    <p>Result: <span id="result3"></span></p>
+</div>
+<div>
+    <h2>Problem 4. Parse tags</h2>
+    <ul>
+        <li>You are given a text. Write a function that changes the text in all regions:</li>
+    </ul>
+    <input type="text" class="array" id="input4" placeholder="get from samples.txt"/>
+    <label for="input4">Input some text with tags</label>
+    <br>
+    <button id="check4">Change</button>
+    <p>Result: <span id="result4"></span></p>
+</div>
+<div>
+    <h2>Problem 5. nbsp</h2>
+    <ul>
+        <li>Write a function that replaces non breaking white-spaces in a text with &nbsp;</li>
+    </ul>
+    <p>Result: <span id="result5"></span></p>
+    <sub>(you may see the function in *.js file - real output in console)</sub>
+</div>
+<div>
+    <h2>Problem 6. Extract text from HTML</h2>
+    <ul>
+        <li>Write a function that extracts the content of a html page given as text.</li>
+        <li>The function should return anything that is in a tag, without the tags.</li>
+    </ul>
+    <input type="text" class="array" id="input6" placeholder="get from samples.txt"/>
+    <label for="input6">Input some html</label>
+    </br>
+    <button id="check6">Extract</button>
+    <p>Result: <span id="result6"></span></p>
+</div>
+<div>
+    <h2>Problem 7. Parse URL</h2>
+    <ul>
+        <li>Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements.</li>
+        <li>Return the elements in a JSON object.</li>
+    </ul>
+    <input type="text" class="array" id="input7" value="http://telerikacademy.com/Courses/Courses/Details/239"/>
+    <label for="input7">Input some URL</label>
+    <br>
+    <button id="check7">Parse</button>
+    <p>Result: <br><span id="result7"></span></p>
+</div>
+<div>
+    <h2>Problem 8. Replace tags</h2>
+    <ul>
+        <li>Write a JavaScript function that replaces in a HTML document given as string all the tags <a href="…">…</a> with corresponding tags [URL=…]…/URL].</li>
+    </ul>
+    <input type="text" class="array" id="input8" placeholder="get from samples.txt"/>
+    <label for="input8">Input some HTML</label>
+    <br>
+    <button id="check8">Replace</button>
+    <p>Result: <span id="result8"></span></p>
+</div>
+<div>
+    <h2>Problem 9. Extract e-mails</h2>
+    <ul>
+        <li>Write a function for extracting all email addresses from given text..</li>
+        <li>All sub-strings that match the format @… should be recognized as emails.</li>
+        <li>Return the emails as array of strings.</li>
+    </ul>
+    <input type="text" class="array" id="input9" placeholder="input"/>
+    <label for="input9">Input some text including emails</label>
+    <br>
+    <button id="check9">Extract</button>
+    <p>Result: <br><span id="result9"></span></p>
+</div>
+<div>
+    <h2>Problem 10. Find palindromes</h2>
+    <ul>
+        <li>Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".</li>
+    </ul>
+    <input type="text" class="array" id="input10" value="abba lamal exe non everything is 42 717 777 one more eve"/>
+    <label for="input10">Input words separated by space</label>
+    <br>
+    <button id="check10">Extract</button>
+    <p>Result: <span id="result10"></span></p>
+</div>
+<div>
+    <h2>Problem 11. String format</h2>
+    <ul>
+        <li>Write a function that formats a string using placeholders.</li>
+        <li>The function should work with up to 30 placeholders and all types.</li>
+    </ul>
+    <sub>(no output here - you may see the function in *.js file)</sub>
+</div>
+<div>
+    <h2>Problem 12. Generate list</h2>
+    <ul>
+        <li>Write a function that creates a HTML &lt;ul&gt; using a template for every HTML &lt;li&gt;.</li>
+        <li>The source of the list should be an array of elements.</li>
+        <li>Replace all placeholders marked with –{…}– with the value of the corresponding property of the object.</li>
+    </ul>
+    <sub>(no output here - you may see the function in *.js file)</sub>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

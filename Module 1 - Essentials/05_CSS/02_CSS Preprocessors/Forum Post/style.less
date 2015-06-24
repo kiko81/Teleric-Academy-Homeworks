@@ -1,0 +1,283 @@
+@backgrooundBottom: #9215f2;
+@backgrooundTop: #d791ff;
+@inputButtonBackground: #b35ef3;
+@inputButtonBorder: 1px solid #603382;
+@blackSolidBorder: 1px solid black;
+@linkColour: #aaa;
+@differentTextColour: #ccc;
+
+
+.roundedCornersIE {
+    behavior: url(pie.htc);
+    position: relative;
+    zoom: 1;
+}
+
+.roundedCorners(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+    .roundedCornersIE;
+}
+
+.clearfix, body header div#header-container, body header nav, body header nav ul, body header nav ul li ul.sub-nav-list, body section, body aside {
+    zoom: 1;
+    
+    &:after, &:before {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+body, header, section, footer, article, h1, h2, h3, input, button, label, p, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font: 14px normal Arial;
+    color: white;
+    background-color: @backgrooundBottom;
+
+    header {
+        padding: 25px 15px 5px 15px;
+
+        div#header-container {
+
+            div#logo-container {
+                float: left;
+                position: relative;
+
+                img {
+                    width: 350px;
+                    border: none;
+                }
+            }
+
+            div#reg-form-container {
+                float: right;
+                position: relative;
+                right: 5%;
+                top: 50%;
+
+                div {
+                    text-align: right;
+
+                    label {
+                        width: 50px;
+                        margin: 5px;
+                    }
+
+                    input {
+                        width: 130px;
+                        padding: 2px 5px;
+                        margin: 5px;
+                        background-color: @inputButtonBackground;
+                        border: @inputButtonBorder;
+                        .roundedCorners(10px);
+                    }
+                }
+
+                button {
+                    font-weight: 600;
+                    border: @inputButtonBorder;
+                    border-style: outset;
+                    padding: 5px 8px;
+                    background-color: @inputButtonBackground;
+                    color: inherit;
+                    .roundedCorners(10px);
+
+                    &:hover {
+                        background-color: #8949b9;
+                        border-style: inset;
+                    }
+                }
+            }
+        }
+
+       nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px;
+            padding: 12px;
+            border: @blackSolidBorder;
+            .roundedCorners(15px);
+
+            ul li {
+                float: left;
+                margin: 0;
+
+                a {
+                    text-decoration: inherit;
+                    padding: 0 10px 0 10px;
+                    color: inherit;
+                    font: 1.4em normal Arial;
+
+                    &.selected {
+                        font-weight: bold;
+                    }
+                }
+
+                &:hover > a {
+                    text-decoration: underline;
+                    color: #a8a8a8;
+
+                    & + ul {
+                        display: block;
+                        position: absolute;
+                    }
+                }
+
+                ul.sub-nav-list {
+                    position: absolute;
+                    display: none;
+                    background-color: rgba(179, 94, 243, 0.9);
+                    .roundedCorners(5px);
+                }
+
+                ul li {
+                    float: none;
+                    margin: 0 15px;
+                    padding: 10px 0;
+                    border-bottom: @blackSolidBorder;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    > a {
+                        font-size: 1.2em;
+                        color: inherit;
+                    }
+                }
+            }
+        } 
+    }
+
+    section {
+        width: 75%;
+        float: left;
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: @blackSolidBorder;
+            .roundedCorners(15px);
+
+            header {
+                padding: 5px;
+
+                h1 {
+                    font-size: 1.4em;
+                    padding: 0;
+                }
+            }
+
+            footer {
+                padding: 5px;
+
+                p {
+                    font-size: 1.15em;
+                    text-align: right;
+                    font-weight: normal;
+
+                    time {
+                        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: @linkColour;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+
+        > ul > li {
+            margin: 15px 0;
+            padding: 15px;
+            border: @blackSolidBorder;
+            .roundedCorners(5px);
+
+            h2 {
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 10px 5px 10px 5px;
+
+                a {
+                    color: @linkColour;
+                    text-decoration: none;
+                }
+
+                strong {
+                    color: @differentTextColour;
+                    font-weight: bold;
+                }
+
+                em {
+                    color: @differentTextColour;
+                    font-style: italic;
+                }
+            }
+
+            ul {
+                margin: 10px 0;
+
+                li {
+                    margin: 5px 0 0 10px;
+                    background: url(images/li-dot.png) no-repeat; 
+                    background-size: 20px;
+                    background-position: 0 50%;
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+
+    footer {
+        clear: both;
+        padding: 15px 0 25px 0;
+
+        p {
+            font-size: 1.2em;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+}
+
+.gradient {
+    background: @backgrooundTop; /* Old browsers */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3OTFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MjE1ZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, @backgrooundTop 0%, @backgrooundBottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@backgrooundTop), color-stop(100%,@backgrooundBottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @backgrooundTop 0%,@backgrooundBottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @backgrooundTop 0%,@backgrooundBottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @backgrooundTop 0%,@backgrooundBottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom, @backgrooundTop 0%,@backgrooundBottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@backgrooundTop', endColorstr='@backgrooundBottom',GradientType=0 ); /* IE6-8 */
+}

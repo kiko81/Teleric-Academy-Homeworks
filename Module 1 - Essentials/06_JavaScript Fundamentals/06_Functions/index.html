@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, serif;
+        }
+
+        input {
+            width: 50px;
+        }
+
+        span {
+            color: orangered;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+
+        .array {
+            width: 500px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Functions</h1>
+<div>
+    <h2>Problem 1. English digit</h2>
+    <ul>
+        <li>Write a function that returns the last digit of given integer as an English word.</li>
+    </ul>
+    <input type="text" id="input1" placeholder="input"/>
+    <label for="input1">input</label>
+    </br>
+    <button id="check1">Check</button>
+    <p>output: <span id="result1"></span></p>
+</div>
+<div>
+    <h2>Problem 2. Reverse number</h2>
+    <ul>
+        <li>Write a function that reverses the digits of given decimal number.</li>
+    </ul>
+    <input type="text" id="input2" placeholder="input"/>
+    <label for="input2">input</label>
+    </br>
+    <button id="check2">Reverse</button>
+    <p>output: <span id="result2"></span></p>
+</div>
+<div>
+    <h2>Problem 3. Occurrences of word</h2>
+    <ul>
+        <li>Write a function that finds all the occurrences of word in a text.</li>
+        <li>The search can be case sensitive or case insensitive.</li>
+        <li>Use function overloading.</li>
+    </ul>
+    <input type="text" class="array" id="input3-1" value="this is it because it Is as it is whatever Is"/>
+    <label for="input3-1">Input some text</label>
+    </br>
+    <input type="text" id="input3-2" value="iS"/>
+    <label for="input3-2">word to search</label>
+    </br>
+    <button id="check3">Find</button>
+    <p>Result: <span id="result3"></span></p>
+</div>
+<div>
+    <h2>Problem 4. Number of elements</h2>
+    <ul>
+        <li>Write a function to count the number of div elements on the web page</li>
+    </ul>
+    <button id="check4">Count</button>
+    <p>Result: <span id="result4"></span></p>
+</div>
+<div>
+    <h2>Problem 5. Appearance count</h2>
+    <ul>
+        <li>Write a function that counts how many times given number appears in given array.</li>
+        <li>Write a test function to check if the function is working correctly.</li>
+    </ul>
+    <input type="text" class="array" id="input5-1" value="1, 5, 4, 6, 6, 9, 3, 5, 7, 9, 5, 7, 6, 9, 1, 4, 4, 6, 5, 8"/>
+    <label for="input5-1">Input numbers separated by comma and space ', '</label>
+    </br>
+    <input type="text" id="input5-2" placeholder="input"/>
+    <label for="input5-2">number to search</label>
+    </br>
+    <button id="check5">Count</button>
+    <p>Result: <span id="result5"></span></p>
+    <sub>(function test() written in .js file, not used )</sub>
+</div>
+<div>
+    <h2>Problem 6. Larger than neighbours</h2>
+    <ul>
+        <li>Write a function that checks if the element at given position in given array of integers is bigger than its
+            two neighbours (when such exist).
+        </li>
+    </ul>
+    <input type="text" class="array" id="input6-1" value="1, 5, 4, 6, 6, 9, 3, 5, 7, 9, 5, 7, 6, 9, 1, 4, 4, 6, 5, 8"/>
+    <label for="input6-1">Input numbers separated by comma and space ', '</label>
+    </br>
+    <input type="text" id="input6-2" placeholder="input"/>
+    <label for="input6-2">index to check</label>
+    </br>
+    <button id="check6">Find</button>
+    <p>Result: <span id="result6"></span></p>
+</div>
+<div>
+    <h2>Problem 7. First larger than neighbours</h2>
+    <ul>
+        <li>Write a function that returns the index of the first element in array that is larger than its neighbours or -1, if there’s no such element.
+        </li>
+        <li>Use the function from the previous exercise.</li>
+    </ul>
+    <input type="text" class="array" id="input7" value="1, 5, 4, 6, 6, 9, 3, 5, 7, 9, 5, 7, 6, 9, 1, 4, 4, 6, 5, 8"/>
+    <label for="input7">Input numbers separated by comma and space ', '</label>
+    </br>
+
+    <button id="check7">Find</button>
+    <p>Result: <span id="result7"></span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

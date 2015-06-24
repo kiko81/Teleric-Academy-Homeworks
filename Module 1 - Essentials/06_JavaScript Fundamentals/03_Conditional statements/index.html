@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial,serif;
+        }
+        input {
+            width: 50px;
+        }
+        span {
+            color: orangered;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<h1>Conditional statements</h1>
+<br>
+<h2>Problem 1. Exchange if greater</h2>
+<ul>
+    <li>Write an if statement that takes two double variables a and b and exchanges their values if the first one is greater than the second.</li>
+    <li>As a result print the values a and b, separated by a space.</li>
+</ul>
+<input type="text" id="input1-a" placeholder="input"/>
+<label for="input1-a">a</label>
+</br>
+<input type="text" id="input1-b" placeholder="input"/>
+<label for="input1-b">b</label>
+</br>
+<button id="check1">Check</button>
+<p>Result: <span id="result1"></span></p>
+</div>
+<div>
+    <h2>Problem 2. Multiplication Sign</h2>
+    <ul>
+        <li>Write a script that shows the sign (+, - or 0) of the product of three real numbers, without calculating it.</li>
+        <li>Use a sequence of if operators.</li>
+    </ul>
+    <input type="text" id="input2-a" placeholder="input"/>
+    <label for="input2-a">a</label>
+    </br>
+    <input type="text" id="input2-b" placeholder="input"/>
+    <label for="input2-b">b</label>
+    </br>
+    <input type="text" id="input2-c" placeholder="input"/>
+    <label for="input2-c">c</label>
+    </br>
+    <button id="check2">Check</button>
+    <p>Result: <span id="result2"></span></p>
+</div>
+<div>
+    <h2>Problem 3. The biggest of Three</h2>
+    <ul>
+        <li>Write a script that finds the biggest of three numbers.</li>
+        <li>Use nested if statements.</li>
+    </ul>
+    <input type="text" id="input3-a" placeholder="input"/>
+    <label for="input3-a">a</label>
+    </br>
+    <input type="text" id="input3-b" placeholder="input"/>
+    <label for="input3-b">b</label>
+    </br>
+    <input type="text" id="input3-c" placeholder="input"/>
+    <label for="input3-c">c</label>
+    </br>
+    <button id="check3">Check</button>
+    <p>Biggest: <span id="result3"></span></p>
+</div>
+<div>
+    <h2>Problem 4. Sort 3 numbers</h2>
+    <ul>
+        <li>Sort 3 real values in descending order.</li>
+        <li>Use nested if statements.</li>
+    </ul>
+    <input type="text" id="input4-a" placeholder="input"/>
+    <label for="input4-a">a</label>
+    </br>
+    <input type="text" id="input4-b" placeholder="input"/>
+    <label for="input4-b">b</label>
+    </br>
+    <input type="text" id="input4-c" placeholder="input"/>
+    <label for="input4-c">c</label>
+    </br>
+    <button id="check4">Sort</button>
+    <p>Result: <span id="result4"></span></p>
+</div>
+<div>
+    <h2>Problem 5. Digit as word</h2>
+    <ul>
+        <li>Write a script that asks for a digit (0-9), and depending on the input, shows the digit as a word (in English).</li>
+        <li>Print “not a digit” in case of invalid input.</li>
+        <li>Use a switch statement.</li>
+    </ul>
+
+    <input type="text" id="input5" placeholder="input"/>
+    <label for="input5">digit</label>
+    </br>
+    <button id="check5">Check</button>
+    <p>Result: <span id="result5"></span></p>
+</div>
+<div>
+    <h2>Problem 6. Quadratic equation</h2>
+    <ul>
+        <li>Write a script that reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0 and solves it (prints its real roots).</li>
+        <li>Calculates and prints its real roots.</li>
+    </ul>
+    <input type="text" id="input6-a" placeholder="input"/>
+    <label for="input6-a">a</label>
+    </br>
+    <input type="text" id="input6-b" placeholder="input"/>
+    <label for="input6-b">b</label>
+    </br>
+    <input type="text" id="input6-c" placeholder="input"/>
+    <label for="input6-c">c</label>
+    </br>
+    <button id="check6">Solve</button>
+    <p>Roots: <span id="result6"></span></p>
+</div>
+<div>
+    <h2>Problem 7. The biggest of five numbers</h2>
+    <ul>
+        <li>Write a script that finds the greatest of given 5 variables.</li>
+        <li>Use nested if statements.</li>
+    </ul>
+    <input type="text" id="input7-a" placeholder="input"/>
+    <label for="input7-a">a</label>
+    </br>
+    <input type="text" id="input7-b" placeholder="input"/>
+    <label for="input7-b">b</label>
+    </br>
+    <input type="text" id="input7-c" placeholder="input"/>
+    <label for="input7-c">c</label>
+    </br>
+    <input type="text" id="input7-d" placeholder="input"/>
+    <label for="input7-d">d</label>
+    </br>
+    <input type="text" id="input7-e" placeholder="input"/>
+    <label for="input7-e">e</label>
+    </br>
+    <button id="check7">Check</button>
+    <p>Biggest: <span id="result7"></span></p>
+</div>
+<div>
+    <h2>Problem 8. Number as words</h2>
+    <ul><li>Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.</li></ul>
+
+    <input type="text" id="input8" placeholder="input"/>
+    <label for="input8">Enter number</label>
+    </br>
+    <button id="check8">Convert</button>
+    <p>Number as words: <span id="result8"></span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

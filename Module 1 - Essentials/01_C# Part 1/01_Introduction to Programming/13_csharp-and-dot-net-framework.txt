@@ -1,0 +1,7 @@
+Problem 13. C# and .NET Differences
+
+Describe the difference between C# and .NET Framework in 2-3 sentences.
+Write your description in a text file called “csharp-and-dot-net-framework.txt”. Use English.
+_________________________________
+
+C# is a language, .NET is an application framework. The .NET libraries can run on the CLR and thus any language which can run on the CLR can also use the .NET libraries.

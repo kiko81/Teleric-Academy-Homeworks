@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, serif;
+        }
+        input {
+            width: 50px;
+        }
+        span {
+            color: orangered;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+        li ul {
+            list-style: circle;
+        }
+        .array {
+            width: 500px;
+        }
+        a {
+            text-decoration: none;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Using Objects</h1>
+<div>
+    <h2>Problem 1. Planar coordinates</h2>
+    <ul>
+        <li>Write functions for working with shapes in standard Planar coordinate system.
+            <ul>
+                <li><b>Points</b> are represented by coordinates P(X, Y)</li>
+                <li><b>Lines</b> are represented by two points, marking their beginning and ending L(P1(X1,Y1), P2(X2,Y2))</li>
+            </ul>
+        </li>
+        <li>Calculate the distance between two points.</li>
+        <li>Check if three segment lines can form a triangle.</li>
+    </ul>
+    <table>
+        <tr>
+            <th colspan="6"> Input coordinates</th>
+        </tr>
+        <tr>
+            <td rowspan="2">P</td>
+            <td colspan="2">line 1</td>
+            <td colspan="2">line 2</td>
+            <td colspan="2">line 3</td>
+        </tr>
+        <tr>
+            <td>Start</td>
+            <td>End</td>
+            <td>Start</td>
+            <td>End</td>
+            <td>Start</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td><input type="text" id="input1-1-x" placeholder="X"/></td>
+            <td><input type="text" id="input1-2-x" placeholder="X"/></td>
+            <td><input type="text" id="input2-1-x" placeholder="X"/></td>
+            <td><input type="text" id="input2-2-x" placeholder="X"/></td>
+            <td><input type="text" id="input3-1-x" placeholder="X"/></td>
+            <td><input type="text" id="input3-2-x" placeholder="X"/></td>
+        </tr>
+        <tr><td>Y</td>
+            <td><input type="text" id="input1-1-y" placeholder="Y"/></td>
+            <td><input type="text" id="input1-2-y" placeholder="Y"/></td>
+            <td><input type="text" id="input2-1-y" placeholder="Y"/></td>
+            <td><input type="text" id="input2-2-y" placeholder="Y"/></td>
+            <td><input type="text" id="input3-1-y" placeholder="Y"/></td>
+            <td><input type="text" id="input3-2-y" placeholder="Y"/></td>
+        </tr>
+    </table>
+    <button id="check1">Check</button>
+    <p>Result: <span id="result1"></span></p>
+</div>
+<div>
+    <h2>Problem 2. Remove elements</h2>
+    <ul>
+        <li>Write a function that removes all elements with a given value.</li>
+        <li>Attach it to the array type.</li>
+        <br>
+        <li>Read about <b>prototype</b> and how to attach methods.</li>
+    </ul>
+    <input type="text" id="input2-1" class="array" value="1, 3, 4, p, 7, 4, 2, r, 77, 7, p, r, o"/>
+    <label for="input2-1">enter values separated by comma and space ', '</label>
+    <br>
+    <input type="text" id="input2-2" placeholder="input"/>
+    <label for="input2-2">element to remove</label>
+    <br>
+    <button id="check2">Remove</button>
+    <p>output: <span id="result2"></span></p>
+</div>
+<div>
+    <h2>Problem 3. Deep copy</h2>
+    <ul>
+        <li>Write a function that makes a deep copy of an object.</li>
+        <li>The function should work for both primitive and reference types.</li>
+    </ul>
+    <button id="show3">Show object properties</button>
+    <p id="source3"></p>
+    <button id="check3">Deep Copy</button>
+    <p>Result: <br><span id="result3"></span></p>
+</div>
+<div>
+    <h2>Problem 4. Has property</h2>
+    <ul>
+        <li>Write a function that checks if a given object contains a given property.</li>
+    </ul>
+    <button id="show4">Show object properties</button>
+    <p id="source4"></p>
+    <input type="text" id="input4" placeholder="input"/>
+    <label for="input4">property to search</label>
+    <br>
+    <button id="check4">Search</button>
+    <p>Result: <span id="result4"></span></p>
+</div>
+<div>
+    <h2>Problem 5. Youngest person</h2>
+    <ul>
+        <li>Write a function that finds the youngest person in a given array of people and prints his/hers full name</li>
+        <br>
+        <li>Each person has properties firstname, lastname and age.</li>
+    </ul>
+    <button id="show5">Show array of persons</button>
+    <p id="source5"></p>
+    <button id="check5">Find youngest</button>
+    <p>Result: <span id="result5"></span></p>
+</div>
+<div>
+    <h2>Problem 6.</h2>
+    <ul>
+        <li>Write a function that groups an array of people by age, first or last name.</li>
+        <li>The function must return an associative array, with keys - the groups, and values - arrays with people in this groups</li>
+        <br>
+        <li>Use function overloading (i.e. just one function)
+        </li>
+    </ul>
+    <button id="show6">Show array of persons</button>
+    <p id="source6"></p>
+    <button id="check6">Group</button>
+    <p>Result: <br><span id="result6"></span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    text-align: left;
+}
+table {
+    background-color:#595959;
+    width:400px;
+    border: 0;
+    font-size: 12px;
+}
+th {
+    font-size: 20px;
+    font-weight: lighter;
+    color: lightgray;
+    padding:10px 0;
+}
+td {
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+tr > td:first-child {
+    font-style: italic;
+    font-weight: normal;
+    color: #BBBBBB ;
+    width: 30%;
+
+}
+tr > td:last-child {
+    color: #9ba7ab
+}
+a {
+    color: #FFF2B3;
+    text-decoration: none;
+}
+p {
+    margin:0;
+}
+.support {
+    color: #fc0529;
+    font-weight:bold;
+}
+.name {
+    vertical-align: top;
+    color:#FFF2B3;
+}
+.bullet {
+    font-size:45px;
+    line-height:16px;
+    vertical-align:top;
+    color:#71B47A;
+}
+.answer {
+    color: #e06b1e;
+    font-weight:bold;
+}

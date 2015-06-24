@@ -1,0 +1,27 @@
+Problem 2. Correct brackets
+
+correct expression: ((a+b)/5-d)
+incorrect expression: )(a+b))
+_____________________________________
+Problem 4. Parse tags
+
+We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.
+_____________________________________
+Problem 6. Extract text from HTML
+
+<html>
+  <head>
+    <title>Sample site</title>
+  </head>
+  <body>
+    <div>text
+      <div>more text</div>
+      and more...
+    </div>
+    in body
+  </body>
+</html>
+______________________________________
+Problem 8. Replace tags
+
+<p>Please visit <a href="http://academy.telerik.com">our site</a> to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>

@@ -1,0 +1,55 @@
+.gallery
+{
+    padding: 10px 0 30px 0;
+
+    div#thumbs
+    {
+        margin: 15px;
+        text-align: center;
+        padding:0;
+
+        label
+        {
+            display: inline-block;
+            background-color: white;
+            margin: 0 1px 0 0;
+            display: inline-block;
+            padding: 0 0 3px 0;
+
+            &:last-of-type
+            {
+                margin-right: 0;
+            }
+
+            img
+            {
+                width: 200px;
+                cursor:pointer;
+            }
+
+            &:hover
+            {
+                background-color: gray;
+            }
+        }   
+    }
+    .big
+    {
+        width: 800px;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: white;
+
+        input, input + img
+        {
+            display: none;
+        }
+
+        input:checked + img
+        {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}

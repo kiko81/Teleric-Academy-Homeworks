@@ -1,0 +1,37 @@
+body {
+    font-family:Verdana;
+    font-size: 11px;
+}
+table {
+    width:500px;
+    border-spacing:0;
+    border-collapse:collapse;
+    border:1px solid#808080;
+}
+thead>tr>td {
+    text-align:left;
+    color:#FFFFFF;
+    background-color:#52b506;
+    border:1px solid #808080;
+    padding-left:5px;
+}
+td {
+    border-left:1px solid #808080;
+    padding:5px;
+}
+tr:nth-child(2n) {
+    background-color:#ececd8;
+}
+td:last-child {
+    width:18%;
+}
+img {
+    width:21px;
+    height:14px;
+    vertical-align:middle;
+}
+input {
+    margin-left:5px;
+    box-shadow: 1px 1px 2px #555 inset;
+    background-color: #555;
+}
