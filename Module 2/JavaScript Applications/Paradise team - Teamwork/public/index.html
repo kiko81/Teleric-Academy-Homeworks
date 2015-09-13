@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paradise</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/toastr/build/toastr.css">
+
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/todo-list.css">
+    <link rel="stylesheet" href="css/meetings.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/kendo.common.min.css">
+    <link rel="stylesheet" href="css/kendo.metro.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+        api_key:   77g37j76vbhpky
+    </script>
+</head>
+<body>
+
+<header class="nav navbar-inverse navbar-fixed-top">
+    <div class="container"><!--container-->
+        <div class="navbar-header"><a href="#/" class="navbar-brand">Paradise</a>
+        </div>
+        <div class="navbar-collapse collapse"><!-- navbar-collapse collapse-->
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Home</a>
+                </li>
+                <li ><a href="#group-nav">Groups</a>
+                </li>
+                <li><span><script type="IN/Share"></script></span>
+                	
+                </li>
+            </ul>
+            <div id="loginBar"></div>
+        </div>
+    </div>    
+</header>
+
+<section>
+    <div id="main-container">
+
+    </div>
+    <div id="group-container"></div>
+   <!-- <div id="chat"></div>
+    <form id="send-message">
+        <input size="40px" id="message"/>
+        <input type="submit"/>
+    </form>-->
+</section>
+</footer><!--<script src="lib/kendo.ui.core.js"></script>-->
+<script src="lib/handlebars/handlebars.js"></script>
+<script src="lib/system.js/dist/system.js"></script>
+<script src="lib/sha1.js"></script>
+<script src="scripts/config.js"></script>
+<script>
+	System.import('scripts/main.js')
+	.then(function(module) {
+		module.init();
+	});
+</script>
+</body>
+</html>
