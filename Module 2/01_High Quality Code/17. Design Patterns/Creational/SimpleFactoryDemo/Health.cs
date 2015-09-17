@@ -6,9 +6,9 @@
     {
         public Health()
         {
-            Amount = 5000;
+            amount = 5000;
 
-            Console.WriteLine("Your Health Expense: {0}", Amount);
+            Console.WriteLine("Your Health Expense: {0}", amount);
         }
     }
 }

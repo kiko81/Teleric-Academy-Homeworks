@@ -2,11 +2,11 @@
 {
     public class CheckBook
     {
-        protected decimal Amount;
+        protected decimal amount;
 
         public decimal GetExpense()
         {
-            return Amount;
+            return this.amount;
         }
     }
 }

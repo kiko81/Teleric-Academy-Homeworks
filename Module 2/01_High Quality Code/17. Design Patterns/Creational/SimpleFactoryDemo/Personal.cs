@@ -6,9 +6,9 @@
     {
         public Personal()
         {
-            Amount = 15000;
+            amount = 15000;
 
-            Console.WriteLine("Your Personal Expense: {0}", Amount);
+            Console.WriteLine("Your Personal Expense: {0}", amount);
         }
     }
 }
