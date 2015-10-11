@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"></xs:element>
+              <xs:element name="sex" type="xs:string"></xs:element>
+              <xs:element name="birthDate" type="xs:string"></xs:element>
+              <xs:element name="phone" type="xs:string"></xs:element>
+              <xs:element name="email" type="xs:string"></xs:element>
+              <xs:element name="course" type="xs:string"></xs:element>
+              <xs:element name="specialty" type="xs:string"></xs:element>
+              <xs:element name="facultyNumber" type="xs:int"></xs:element>
+              <xs:element name="exams">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="exam" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string"></xs:element>
+                          <xs:element name="tutor" type="xs:string"></xs:element>
+                          <xs:element name="score" type="xs:int"></xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="xmlns:student" type="xs:string"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students xmlns:student="urn:students">
+  <student>
+    <name>Quentin Parsons</name>
+    <sex>female</sex>
+    <birthDate>May 28th, 2014</birthDate>
+    <phone>(187) 623-1769</phone>
+    <email>enim.Suspendisse.aliquet@estarcu.net</email>
+    <course>enim consequat purus. Maecenas libero est, congue</course>
+    <specialty>Research and Development</specialty>
+    <facultyNumber>90664</facultyNumber>
+    <exams>
+      <exam>
+        <name>ut cursus luctus,</name>
+        <teacher>Medge Sargent</teacher>
+        <score>68</score>
+      </exam>
+      <exam>
+        <name>id nunc interdum</name>
+        <teacher>Eleanor Savage</teacher>
+        <score>57</score>
+      </exam>
+      <exam>
+        <name>Mauris vestibulum, neque</name>
+        <teacher>Suki Reese</teacher>
+        <score>28</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Devin Spencer</name>
+    <sex>female</sex>
+    <birthDate>April 19th, 2015</birthDate>
+    <phone>(518) 308-6777</phone>
+    <email>fringilla.ornare@eunullaat.com</email>
+    <course>sed</course>
+    <specialty>Sales and Marketing</specialty>
+    <facultyNumber>98263</facultyNumber>
+    <exams>
+      <exam>
+        <name>amet, dapibus</name>
+        <teacher>Shaine Lewis</teacher>
+        <score>75</score>
+      </exam>
+      <exam>
+        <name>sed, sapien.</name>
+        <teacher>Ina Lindsay</teacher>
+        <score>6</score>
+      </exam>
+      <exam>
+        <name>enim. Nunc ut</name>
+        <teacher>Aiko Simmons</teacher>
+        <score>84</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Honorato Powers</name>
+    <sex>male</sex>
+    <birthDate>October 24th, 2014</birthDate>
+    <phone>(832) 233-7724</phone>
+    <email>eget.venenatis.a@sed.ca</email>
+    <course>velit. Sed malesuada augue ut</course>
+    <specialty>Customer Relations</specialty>
+    <facultyNumber>48951</facultyNumber>
+    <exams>
+      <exam>
+        <name>euismod ac,</name>
+        <teacher>Ria Velez</teacher>
+        <score>59</score>
+      </exam>
+      <exam>
+        <name>faucibus leo,</name>
+        <teacher>Caryn Joyce</teacher>
+        <score>68</score>
+      </exam>
+      <exam>
+        <name>dolor</name>
+        <teacher>Celeste Mason</teacher>
+        <score>39</score>
+      </exam>
+    </exams>
+  </student>
+</students>

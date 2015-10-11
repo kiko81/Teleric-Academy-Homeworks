@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<albums>
+  <album>
+    <name>orci. Phasellus dapibus</name>
+    <artist>Eaton Holland</artist>
+    <year>2013</year>
+    <producer>Paul Joseph</producer>
+    <price>$13.46</price>
+    <songs>
+      <song>
+        <title>Curabitur sed</title>
+        <duration>107</duration>
+      </song>
+      <song>
+        <title>mattis ornare, lectus</title>
+        <duration>205</duration>
+      </song>
+      <song>
+        <title>risus. Morbi</title>
+        <duration>234</duration>
+      </song>
+      <song>
+        <title>natoque penatibus</title>
+        <duration>116</duration>
+      </song>
+      <song>
+        <title>Ut</title>
+        <duration>119</duration>
+      </song>
+      <song>
+        <title>tristique pharetra.</title>
+        <duration>170</duration>
+      </song>
+      <song>
+        <title>tristique pellentesque, tellus sem</title>
+        <duration>247</duration>
+      </song>
+      <song>
+        <title>pede et risus. Quisque</title>
+        <duration>246</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Nullam feugiat</name>
+    <artist>Elmo Hubbard</artist>
+    <year>2002</year>
+    <producer>Amir Marks</producer>
+    <price>$28.88</price>
+    <songs>
+      <song>
+        <title>Etiam vestibulum massa</title>
+        <duration>300</duration>
+      </song>
+      <song>
+        <title>vel,</title>
+        <duration>174</duration>
+      </song>
+      <song>
+        <title>purus.</title>
+        <duration>290</duration>
+      </song>
+      <song>
+        <title>et, commodo at,</title>
+        <duration>293</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>ante ipsum primis in</name>
+    <artist>Dane Mcgee</artist>
+    <year>2005</year>
+    <producer>Nissim Wise</producer>
+    <price>$69.69</price>
+    <songs>
+      <song>
+        <title>lobortis,</title>
+        <duration>252</duration>
+      </song>
+      <song>
+        <title>mus. Aenean</title>
+        <duration>212</duration>
+      </song>
+      <song>
+        <title>at, egestas</title>
+        <duration>113</duration>
+      </song>
+      <song>
+        <title>posuere cubilia Curae; Phasellus</title>
+        <duration>151</duration>
+      </song>
+      <song>
+        <title>arcu eu odio</title>
+        <duration>161</duration>
+      </song>
+      <song>
+        <title>condimentum</title>
+        <duration>261</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>sit</name>
+    <artist>Arden Hardy</artist>
+    <year>2014</year>
+    <producer>Walker Terrell</producer>
+    <price>$99.55</price>
+    <songs>
+      <song>
+        <title>aliquet odio.</title>
+        <duration>117</duration>
+      </song>
+      <song>
+        <title>quam. Pellentesque habitant morbi</title>
+        <duration>203</duration>
+      </song>
+      <song>
+        <title>vel est</title>
+        <duration>175</duration>
+      </song>
+      <song>
+        <title>purus. Nullam scelerisque neque</title>
+        <duration>211</duration>
+      </song>
+      <song>
+        <title>sagittis felis.</title>
+        <duration>169</duration>
+      </song>
+      <song>
+        <title>Vivamus non lorem vitae</title>
+        <duration>143</duration>
+      </song>
+      <song>
+        <title>mauris sit</title>
+        <duration>246</duration>
+      </song>
+      <song>
+        <title>Nullam feugiat</title>
+        <duration>141</duration>
+      </song>
+      <song>
+        <title>congue. In scelerisque scelerisque</title>
+        <duration>264</duration>
+      </song>
+      <song>
+        <title>Phasellus dolor</title>
+        <duration>293</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>turpis</name>
+    <artist>Clinton May</artist>
+    <year>2010</year>
+    <producer>Charles Schneider</producer>
+    <price>$76.74</price>
+    <songs>
+      <song>
+        <title>mauris sapien, cursus</title>
+        <duration>206</duration>
+      </song>
+      <song>
+        <title>nisi. Aenean eget metus.</title>
+        <duration>140</duration>
+      </song>
+      <song>
+        <title>scelerisque neque. Nullam</title>
+        <duration>258</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>sed</name>
+    <artist>Aaron Larson</artist>
+    <year>2009</year>
+    <producer>Chadwick Mckee</producer>
+    <price>$17.01</price>
+    <songs>
+      <song>
+        <title>eget, venenatis</title>
+        <duration>228</duration>
+      </song>
+      <song>
+        <title>sit amet, risus. Donec</title>
+        <duration>279</duration>
+      </song>
+      <song>
+        <title>Aliquam vulputate</title>
+        <duration>195</duration>
+      </song>
+      <song>
+        <title>Cras sed leo. Cras</title>
+        <duration>226</duration>
+      </song>
+      <song>
+        <title>vehicula</title>
+        <duration>200</duration>
+      </song>
+      <song>
+        <title>Aenean</title>
+        <duration>111</duration>
+      </song>
+      <song>
+        <title>Quisque</title>
+        <duration>179</duration>
+      </song>
+      <song>
+        <title>ligula</title>
+        <duration>139</duration>
+      </song>
+      <song>
+        <title>venenatis vel,</title>
+        <duration>128</duration>
+      </song>
+      <song>
+        <title>consectetuer adipiscing elit. Curabitur</title>
+        <duration>260</duration>
+      </song>
+      <song>
+        <title>lacinia orci,</title>
+        <duration>103</duration>
+      </song>
+      <song>
+        <title>Morbi</title>
+        <duration>287</duration>
+      </song>
+      <song>
+        <title>erat nonummy ultricies</title>
+        <duration>111</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>aliquam</name>
+    <artist>Aaron Larson</artist>
+    <year>1988</year>
+    <producer>Caesar Whitaker</producer>
+    <price>$42.98</price>
+    <songs>
+      <song>
+        <title>Vivamus nisi.</title>
+        <duration>179</duration>
+      </song>
+      <song>
+        <title>tincidunt tempus</title>
+        <duration>157</duration>
+      </song>
+      <song>
+        <title>et, rutrum</title>
+        <duration>288</duration>
+      </song>
+      <song>
+        <title>aliquet magna</title>
+        <duration>265</duration>
+      </song>
+      <song>
+        <title>enim</title>
+        <duration>108</duration>
+      </song>
+      <song>
+        <title>primis</title>
+        <duration>249</duration>
+      </song>
+      <song>
+        <title>et, commodo at,</title>
+        <duration>247</duration>
+      </song>
+      <song>
+        <title>blandit mattis. Cras eget</title>
+        <duration>255</duration>
+      </song>
+      <song>
+        <title>amet ante. Vivamus non</title>
+        <duration>156</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Ut tincidunt</name>
+    <artist>Eaton Holland</artist>
+    <year>1989</year>
+    <producer>Benjamin Weaver</producer>
+    <price>$72.26</price>
+    <songs>
+      <song>
+        <title>purus ac</title>
+        <duration>157</duration>
+      </song>
+      <song>
+        <title>imperdiet ornare. In faucibus.</title>
+        <duration>206</duration>
+      </song>
+      <song>
+        <title>accumsan neque</title>
+        <duration>179</duration>
+      </song>
+      <song>
+        <title>orci. Donec</title>
+        <duration>188</duration>
+      </song>
+      <song>
+        <title>turpis.</title>
+        <duration>127</duration>
+      </song>
+      <song>
+        <title>mollis.</title>
+        <duration>155</duration>
+      </song>
+      <song>
+        <title>lorem lorem, luctus</title>
+        <duration>273</duration>
+      </song>
+      <song>
+        <title>amet lorem semper</title>
+        <duration>198</duration>
+      </song>
+      <song>
+        <title>at</title>
+        <duration>298</duration>
+      </song>
+      <song>
+        <title>dui nec</title>
+        <duration>188</duration>
+      </song>
+      <song>
+        <title>natoque penatibus</title>
+        <duration>279</duration>
+      </song>
+      <song>
+        <title>Vestibulum ante ipsum</title>
+        <duration>198</duration>
+      </song>
+      <song>
+        <title>at, egestas a,</title>
+        <duration>175</duration>
+      </song>
+      <song>
+        <title>magna. Lorem ipsum dolor</title>
+        <duration>141</duration>
+      </song>
+    </songs>
+  </album>
+</albums>

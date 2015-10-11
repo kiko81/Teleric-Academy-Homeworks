@@ -1,0 +1,132 @@
+<h1>Database Systems Homework</h1>
+<ul>
+<li>
+<p>Database models</p>
+<ul>
+<li>Hierarchical  (tree)</li>
+<li>Network / graph</li>
+<li>Relational (table)</li>
+<li>Object-oriented</li>
+</ul>
+</li>
+<li>
+<p>Relational databases manage data stored in tables</p>
+<ul>
+<li>Represent a bunch of tables together with the relationships between them</li>
+<li>Rely on a strong mathematical foundation: the relational algebra</li>
+<li>support SQL</li>
+</ul>
+</li>
+<li>
+<p>Tables</p>
+<ul>
+<li>Database tables consist of data, arranged in rows and columns</li>
+<li>All rows have the same structure</li>
+<li>Columns have name and type (number, string, date, image, or other)</li>
+</ul>
+</li>
+<li>
+<p>Primary Key vs. foreign key (PK/FK)</p>
+<ul>
+<li>
+<p>Primary key is a column of the table that uniquely identifies its rows (usually its a number)</p>
+</li>
+<li>
+<p>The foreign key is an identifier of a record located in another table (usually its primary key)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Relationships</p>
+<ul>
+<li>
+<p>one-to-many - A single record in the first table has many corresponding records in the second table</p>
+</li>
+<li>
+<p>any-to-many - Rcords in the first table have many correspon-ding records in the second one and vice versa</p>
+</li>
+<li>
+<p>one-to-one - A single record in a table corresponds to a single record in the other table</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Normalization</p>
+<ul>
+<li>Normalization involves decomposing a table into less redundant (and smaller) tables without losing information; defining foreign keys in the old table referencing the primary keys of the new ones. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.</li>
+</ul>
+</li>
+<li>
+<p>Integrity Constraints</p>
+<ul>
+<li>Integrity constraints ensure data integrity in the database tables -    Enforce data rules which cannot be violated</li>
+<li>Primary key constraint - Ensures that the primary key of a table has unique value for each table row</li>
+<li>Unique key constraint - Ensures that all values in a certain column (or a group of columns) are unique</li>
+<li>Foreign key constraint - Ensures that the value in given column is a key from another table</li>
+<li>Check constraint - Ensures that values in a certain column meet some predefined condition</li>
+</ul>
+</li>
+<li>
+<p>Indexes</p>
+<ul>
+<li>Indexes speed up searching of values in a certain column or group of columns</li>
+<li>Adding and deleting records in indexed tables is slower!</li>
+</ul>
+</li>
+<li>
+<p>SQL language</p>
+<ul>
+<li>Standardized declarative language for manipulation of relational databases</li>
+<li>Creating, altering, deleting tables and other objects in the database</li>
+<li>Searching, retrieving, inserting, modifying and deleting table data (rows)</li>
+</ul>
+</li>
+<li>
+<p>Transactions</p>
+<ul>
+<li>
+<p>Transactions are a sequence of database operations which are executed as a single unit:</p>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>A bank transfer from one account into another (withdrawal + deposit)</li>
+<li>If either the withdrawal or the deposit fails the entire operation should be cancelled</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>NoSQL</p>
+<ul>
+<li>Schema-free document storage</li>
+<li>Still support CRUD operations</li>
+<li>Create, Read, Update, Delete</li>
+<li>Still support indexing and querying</li>
+<li>Still supports concurrency and transactions</li>
+<li>Highly optimized for append / retrieve</li>
+<li>Great performance and scalability</li>
+</ul>
+</li>
+<li>
+<p>Non-Relational Data Models</p>
+<ul>
+<li>Document model (e.g. MongoDB, CouchDB) - Set of documents, e.g. JSON strings</li>
+<li>Key-value model (e.g. Redis) - Set of key-value pairs</li>
+<li>Hierarchical key-value - Hierarchy of key-value pairs</li>
+<li>Wide-column model (e.g. Cassandra) - Key-value model with schema</li>
+<li>Object model (e.g. Cache) - Set of OOP-style objects</li>
+</ul>
+</li>
+<li>
+<p>NoSQL Database Systems</p>
+<ul>
+<li>Redis - Ultra-fast in-memory data structures server</li>
+<li>MongoDB - Mature and powerful JSON-document database</li>
+<li>CouchDB - JSON-based document database with REST API</li>
+<li>Cassandra - Distributed wide-column database</li>
+</ul>
+</li>
+</ul>
