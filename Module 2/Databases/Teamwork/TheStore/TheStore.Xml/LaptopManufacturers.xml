@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<manufacturers>
+  <manufacturer>
+    <name>
+      Dell
+    </name>
+  </manufacturer>
+  <manufacturer>
+    <name>
+      HP
+    </name>
+  </manufacturer>
+  <manufacturer>
+    <name>
+      Toshiba
+    </name>
+  </manufacturer>
+  <manufacturer>
+    <name>
+      Acer
+    </name>
+  </manufacturer>
+    <manufacturer>
+    <name>
+      Lenovo
+    </name>
+  </manufacturer>
+</manufacturers>
